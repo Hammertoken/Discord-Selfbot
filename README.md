@@ -7,4 +7,5 @@
 뿌려진거에서 추가된기능 많고 리모델링 좀 함
 
 언어 = python
+
 필수모듈 = discord, bs4, asyncio, datetime, requests, urllib, selenium, discum
