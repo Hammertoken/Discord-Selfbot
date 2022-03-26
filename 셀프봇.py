@@ -524,7 +524,7 @@ async def 이모지(ctx, *, mes):
     await msg.add_reaction('🎁')
 
 @bot.command()
-async def 출금(ctx, *, money):
+async def 출금(ctx, *, money): #자동출금소스와 연동
     id = 컬쳐아디
     pw = 컬쳐비번
     phone = 폰번호
@@ -537,7 +537,7 @@ async def 출금(ctx, *, money):
     await ctx.reply(res)
 
 @bot.command()
-async def 돈(ctx):
+async def 돈(ctx): #자동출금소스와 연동
     id = 컬쳐아디
     pw = 컬쳐비번
     phone = 폰번호
