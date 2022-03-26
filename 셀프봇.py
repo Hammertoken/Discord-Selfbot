@@ -67,11 +67,6 @@ async def 계좌(ctx):
     await ctx.send(f'> **{계좌정보}**')
 
 @bot.command()
-async def 개인계좌(ctx):
-    await ctx.message.delete()
-    await ctx.send(f'> **카카오뱅크 7777016636204 서정우**')
-
-@bot.command()
 async def 봇(ctx, *, rec):
     await ctx.message.delete()
     await ctx.send(f'> https://discord.com/oauth2/authorize?client_id={rec}&permissions=8&scope=bot')
